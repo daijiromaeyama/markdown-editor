@@ -55,7 +55,7 @@ export const SaveModal: React.FC<Props> = props => {
           />
         </p>
         <Control>
-          <Button onClick={onCancel}>
+          <Button onClick={onCancel} cancel>
             キャンセル
           </Button>
           <Button onClick={() => onSave(title)}>
